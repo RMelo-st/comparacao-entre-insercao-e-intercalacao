@@ -98,11 +98,11 @@ A contagem foi realizada por meio de uma classe que incrementa um contador sempr
 
 ## 7. Conclusão
 
-Com os resultados obtidos, foi possível observar que a inserção funciona bem para listas pequenas, mas perde desempenho conforme o tamanho aumenta. A intercalação teve um tempo menor a partir de 75 elementos e realizou muito menos comparações em todos os tamanhos testados.
+Com os resultados obtidos, foi possível observar que o algoritmo de inserção funciona bem para listas pequenas, mas perde desempenho conforme o tamanho aumenta. A intercalação apresentou menor tempo de execução a partir de 75 elementos e realizou menos comparações em todos os tamanhos testados.
 
-O `sorted()` apresentou o menor tempo de execução entre os três métodos avaliados. Os resultados também mostram que analisar somente o tempo ou somente o número de comparações não é suficiente para explicar todo o desempenho de um algoritmo.
+O método `sorted()` apresentou o menor tempo de execução entre os três métodos avaliados. Os resultados também mostram que analisar somente o tempo de execução ou o número de comparações não é suficiente para explicar todo o desempenho de um algoritmo.
 
-As conclusões se referem às listas aleatórias e às condições utilizadas neste experimento. Em outras máquinas ou com listas de características diferentes, os tempos podem mudar.
+As conclusões se limitam às listas aleatórias e às condições utilizadas neste experimento. Em outras máquinas ou com listas de características diferentes, os resultados podem variar.
 
 ## 8. Arquivos do projeto
 
